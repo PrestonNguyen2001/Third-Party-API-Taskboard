@@ -1,16 +1,38 @@
 body {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
-  }
-  
-  .swim-lanes {
-    min-height: 60vh;
-  }
-  
-  .task-card {
-    margin: 0 auto;
-  }
-  
-  .task-card:hover {
-    cursor: grab;
-  }
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+}
+
+.swim-lanes {
+  min-height: 60vh;
+}
+
+.task-card {
+  margin: 0 auto;
+  border-radius: 2px;
+}
+
+.task-card:hover {
+  cursor: grab;
+}
+
+.task-card .card {
+  background-color: transparent;
+  border-radius: 2px;
+}
+
+.task-done {
+  background-color: white;
+}
+
+.card-header {
+  font-size: 24px;
+}
+
+.card-text {
+  font-size: 16px;
+  color: black;
+  font-weight: bold;
+}
+
+
