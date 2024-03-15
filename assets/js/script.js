@@ -41,19 +41,19 @@ function setColorBasedOnDueDate(taskCard, task) {
 
     // Set background color to white if status is "done"
     if (task.status === 'done') {
-        taskCard.style.backgroundColor = 'white';
+        taskCard.style.backgroundColor = '#FAFFFD';
         
     // Set background color to red if task is overdue
     } else if (daysDiff < 0) {
-        taskCard.style.backgroundColor = 'red'; 
+        taskCard.style.backgroundColor = '#DF2935'; 
 
     // Set background color to yellow if task is nearing the deadline
     } else if (daysDiff <= 3) {
-        taskCard.style.backgroundColor = 'yellow';
+        taskCard.style.backgroundColor = '#F6F740';
 
     // Set background color to white if task is not overdue and has more than 3 days until the deadline
     } else {
-        taskCard.style.backgroundColor = 'white'; 
+        taskCard.style.backgroundColor = '#FAFFFD'; 
     }
 }
 
